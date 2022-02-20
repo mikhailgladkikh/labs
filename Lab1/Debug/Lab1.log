@@ -1,0 +1,20 @@
+﻿  Lab1.cpp
+C:\Users\Admin\source\repos\ConsoleApplication6\Lab1\Lab1.cpp(16,19): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Admin\source\repos\ConsoleApplication6\Lab1\Lab1.cpp(24,18): error C2679: binary '+=': no operator found which takes a right-hand operand of type 'std::string [6]' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xstring(3118,42): message : could be 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator +=(_Elem)'
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xstring(3114,42): message : or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator +=(const _Elem *const )'
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xstring(3103,42): message : or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator +=(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xstring(2969,42): message : or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator +=(std::initializer_list<_Elem>)'
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\Admin\source\repos\ConsoleApplication6\Lab1\Lab1.cpp(24,18): message : while trying to match the argument list '(std::string, std::string [6])'
