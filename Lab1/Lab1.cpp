@@ -5,24 +5,28 @@ using namespace std;
 
 int main()
 {
-	string key = "      ";
 	int len = 6;
 	string input;
 	string output;
+	cout << "Enter your string: ";
 	getline(cin, input);
-	
-	input.append(6 - input.size() % 6, '_');
-	cout << input << endl;
+	//количество пробелов, которое необходимо добавить до числа, кратного трём
+	int additional_spaces_count = 6 - input.size() % 6;
+	if (additional_spaces_count != 6)
+	{
+		input.append(6 - input.size() % 6, '_');
+	}
+
 	for(int i = 0; i < input.size(); i+=len)
 	{
-			 key[1] = input[i];
-			 key[4] = input[i+1];
-			 key[0] = input[i+2];
-			 key[2] = input[i+3];
-			 key[3] = input[i+4];
-			 key[5] = input[i+5];
-			 output += key;
+		//шифруем. На первое место в зашифрованной строке пойдет третий символ оригинальной строки и т.д
+		output.push_back(input[i + 2]);
+		output.push_back(input[i]);
+		output.push_back(input[i + 3]);
+		output.push_back(input[i + 4]);
+		output.push_back(input[i + 1]);
+		output.push_back(input[i + 5]);
 	}
-	cout << output;
+	cout << "Crypted string: " << output;
 }
 
