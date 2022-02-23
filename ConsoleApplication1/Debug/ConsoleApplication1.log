@@ -1,3 +1,0 @@
-﻿  ConsoleApplication1.cpp
-C:\Users\Admin\source\repos\SAOD\ConsoleApplication1\ConsoleApplication1.cpp(8,23): warning C4305: 'initializing': truncation from 'double' to 'float'
-  ConsoleApplication1.vcxproj -> C:\Users\Admin\source\repos\SAOD\Debug\ConsoleApplication1.exe
