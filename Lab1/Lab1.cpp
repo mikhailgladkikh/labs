@@ -10,8 +10,13 @@ int main()
 	string input;
 	string output;
 	getline(cin, input);
-	
-	input.append(6 - input.size() % 6, '_');
+
+	int additional_spaces_count = 6 - input.size() % 6;
+	if (additional_spaces_count != 6)
+	{
+		input.append(6 - input.size() % 6, '_');
+	}
+
 	cout << input << endl;
 	for(int i = 0; i < input.size(); i+=len)
 	{
