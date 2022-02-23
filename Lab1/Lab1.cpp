@@ -5,7 +5,6 @@ using namespace std;
 
 int main()
 {
-	string key = "      ";
 	int len = 6;
 	string input;
 	string output;
@@ -20,13 +19,12 @@ int main()
 	cout << input << endl;
 	for(int i = 0; i < input.size(); i+=len)
 	{
-			 key[1] = input[i];
-			 key[4] = input[i+1];
-			 key[0] = input[i+2];
-			 key[2] = input[i+3];
-			 key[3] = input[i+4];
-			 key[5] = input[i+5];
-			 output += key;
+		output.push_back(input[i + 2]);
+		output.push_back(input[i]);
+		output.push_back(input[i + 3]);
+		output.push_back(input[i + 4]);
+		output.push_back(input[i + 1]);
+		output.push_back(input[i + 5]);
 	}
 	cout << output;
 }
