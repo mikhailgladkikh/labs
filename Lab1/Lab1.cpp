@@ -8,8 +8,9 @@ int main()
 	int len = 6;
 	string input;
 	string output;
+	cout << "Enter your string: ";
 	getline(cin, input);
-
+	//количество пробелов, которое необходимо добавить до числа, кратного трём
 	int additional_spaces_count = 6 - input.size() % 6;
 	if (additional_spaces_count != 6)
 	{
@@ -18,7 +19,7 @@ int main()
 
 	cout << input << endl;
 	for(int i = 0; i < input.size(); i+=len)
-	{
+	{    //шифруем. На первое место в зашифрованной строке пойдет третий символ оригинальной строки и т.д
 		output.push_back(input[i + 2]);
 		output.push_back(input[i]);
 		output.push_back(input[i + 3]);
@@ -27,6 +28,6 @@ int main()
 		output.push_back(input[i + 5]);
 
 	}
-	cout << output;
+	cout << "Crypted string: " << output;
 }
 
