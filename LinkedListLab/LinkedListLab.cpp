@@ -88,10 +88,7 @@ bool Delete (int pos, STUDENTS *L)
     return true;
 }
 
-void Length(int last1, STUDENTS L)
-{
-    cout << "Length of the list is: " << last1;
-}
+
 
 void Find(int pos, STUDENTS L)
 {
