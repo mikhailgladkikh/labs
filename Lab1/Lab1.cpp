@@ -10,13 +10,13 @@ int main()
 	string output;
 	cout << "Enter your string: ";
 	getline(cin, input);
-	
+	//ñount how many symbols needs to be added to the end of the string to make it multiple of six
 	int additional_spaces_count = 6 - input.size() % 6;
 	if (additional_spaces_count != 6)
 	{
-		input.append(6 - input.size() % 6, '_');
+		input.append(additional_spaces_count, '_');
 	}
-
+	//cypher
 	for(int i = 0; i < input.size(); i+=len)
 	{
 		
