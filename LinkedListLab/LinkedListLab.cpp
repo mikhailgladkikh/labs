@@ -88,6 +88,11 @@ bool Delete (int pos, STUDENTS *L)
     return true;
 }
 
+/**
+@brief Func to find out the length of list
+@param last The amount of elements in the list
+@param L - structure from STUDENTS
+ */
 void Length(int last, STUDENTS L)
 {
     cout << "Length of the list is: " << last;
