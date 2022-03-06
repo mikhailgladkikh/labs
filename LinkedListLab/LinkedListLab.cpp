@@ -25,7 +25,7 @@ bool Insert(int pos, string name, int age, int record_book, STUDENTS* L);
 
 int main()
 {
-    STUDENTS students_list;
+    STUDENTS students_list
     students_list.last = -1;
     int pos, age, record_book;
     string name;
