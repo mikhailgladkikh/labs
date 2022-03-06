@@ -6,11 +6,11 @@ jobs:
         steps:
             - name: upload
               uses: actions/checkout@v2
-            - name: setup-msbuild
+            - name: msbuild
               uses: microsoft/setup-msbuild@v1.1
-            - name: Compile Release
+            - name: Release
               run: msbuild /property:Configuration=Release
-            - name: upload result
+            - name: result
               uses: actions/upload-artifact@v2
               with:
                path: Release
