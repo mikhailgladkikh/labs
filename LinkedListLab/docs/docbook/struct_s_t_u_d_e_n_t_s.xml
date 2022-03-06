@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_s_t_u_d_e_n_t_s" xml:lang="en-US">
+<title>STUDENTS Struct Reference</title>
+<indexterm><primary>STUDENTS</primary></indexterm>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_struct_s_t_u_d_e_n_t_s_1a90f837a42fe9c0be722e3902df7e94fd"/>int <emphasis role="strong">elem</emphasis> [maxlen]</para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_s_t_u_d_e_n_t_s_1a16b83858b92c3965b8ae01af59854adc"/>int <emphasis role="strong">last</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_s_t_u_d_e_n_t_s_1aef823c8456b7acad934247fc3104b989"/>string <emphasis role="strong">name</emphasis> [maxlen]</para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_s_t_u_d_e_n_t_s_1a3db3675d5c0fb5bc2eb1ecd64d7a9238"/>int <emphasis role="strong">record_book</emphasis> [maxlen]</para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_s_t_u_d_e_n_t_s_1a3a1299bdd7ec1856d42933f0b8103884"/>int <emphasis role="strong">age</emphasis> [maxlen]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+C:/Users/Admin/source/repos/SAOD/LinkedListLab/LinkedListLab.cpp</section>

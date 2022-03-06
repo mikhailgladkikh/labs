@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="struct_s_t_u_d_e_n_t_s" kind="struct"><name>STUDENTS</name>
+    <member refid="struct_s_t_u_d_e_n_t_s_1a90f837a42fe9c0be722e3902df7e94fd" kind="variable"><name>elem</name></member>
+    <member refid="struct_s_t_u_d_e_n_t_s_1a16b83858b92c3965b8ae01af59854adc" kind="variable"><name>last</name></member>
+    <member refid="struct_s_t_u_d_e_n_t_s_1aef823c8456b7acad934247fc3104b989" kind="variable"><name>name</name></member>
+    <member refid="struct_s_t_u_d_e_n_t_s_1a3db3675d5c0fb5bc2eb1ecd64d7a9238" kind="variable"><name>record_book</name></member>
+    <member refid="struct_s_t_u_d_e_n_t_s_1a3a1299bdd7ec1856d42933f0b8103884" kind="variable"><name>age</name></member>
+  </compound>
+  <compound refid="struct_s_t_u_d_e_n_t_s___a_c_a_d_e_m" kind="struct"><name>STUDENTS_ACADEM</name>
+    <member refid="struct_s_t_u_d_e_n_t_s___a_c_a_d_e_m_1a51e80eb7703d6b98fe48a6b191eadecd" kind="variable"><name>elem</name></member>
+    <member refid="struct_s_t_u_d_e_n_t_s___a_c_a_d_e_m_1abfc23367816f171960ef606ce0cb8cf9" kind="variable"><name>last</name></member>
+    <member refid="struct_s_t_u_d_e_n_t_s___a_c_a_d_e_m_1a320423722d1ab475b324ffdd6114e3f7" kind="variable"><name>name</name></member>
+    <member refid="struct_s_t_u_d_e_n_t_s___a_c_a_d_e_m_1a352695baabaf26ab805abd880734a9ea" kind="variable"><name>academ_start</name></member>
+    <member refid="struct_s_t_u_d_e_n_t_s___a_c_a_d_e_m_1a10f0ff4ce0d096da6e8cb098054a0680" kind="variable"><name>academ_end</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="_linked_list_lab_8cpp" kind="file"><name>LinkedListLab.cpp</name>
+    <member refid="_linked_list_lab_8cpp_1aa055770d0fa78cec14ae7a0e29266c6e" kind="variable"><name>maxlen</name></member>
+    <member refid="_linked_list_lab_8cpp_1a2caa281519f882b7c5a1fbd51b9c22ed" kind="function"><name>Insert</name></member>
+    <member refid="_linked_list_lab_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+    <member refid="_linked_list_lab_8cpp_1ab39689d74c3a71a1a673c432d66f8486" kind="function"><name>Delete</name></member>
+    <member refid="_linked_list_lab_8cpp_1a954b2c1e7222dabd17ab96838165fa6f" kind="function"><name>Length</name></member>
+    <member refid="_linked_list_lab_8cpp_1a0bdde59f3f4912b428943acaf6009d7a" kind="function"><name>Find</name></member>
+    <member refid="_linked_list_lab_8cpp_1ae4f506178ab3a1668738d9347e23bdb2" kind="function"><name>Change</name></member>
+    <member refid="_linked_list_lab_8cpp_1ac8dc771bd3dd45772e3605ee47ad7405" kind="function"><name>Upload</name></member>
+  </compound>
+  <compound refid="dir_31059516c74acec96613626ef7aefcf7" kind="dir"><name>C:/Users/Admin</name>
+  </compound>
+  <compound refid="dir_e7e2db918665dcc6e7829d1910714fa3" kind="dir"><name>C:/Users/Admin/source/repos/SAOD/LinkedListLab</name>
+  </compound>
+  <compound refid="dir_2d907e3df8f1f129c968a4bbe0d6f0ed" kind="dir"><name>C:/Users/Admin/source/repos</name>
+  </compound>
+  <compound refid="dir_6b591aad01ad34ddfd08087302108951" kind="dir"><name>C:/Users/Admin/source/repos/SAOD</name>
+  </compound>
+  <compound refid="dir_1e35749b3777f4627c9712b80a6fc010" kind="dir"><name>C:/Users/Admin/source</name>
+  </compound>
+  <compound refid="dir_d522931ffa1371640980b621734a4381" kind="dir"><name>C:/Users</name>
+  </compound>
+</doxygenindex>

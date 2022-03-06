@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="struct_s_t_u_d_e_n_t_s___a_c_a_d_e_m" kind="struct" language="C++" prot="public">
+    <compoundname>STUDENTS_ACADEM</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_s_t_u_d_e_n_t_s___a_c_a_d_e_m_1a51e80eb7703d6b98fe48a6b191eadecd" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int STUDENTS_ACADEM::elem[maxlen]</definition>
+        <argsstring>[maxlen]</argsstring>
+        <name>elem</name>
+        <qualifiedname>STUDENTS_ACADEM::elem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Admin/source/repos/SAOD/LinkedListLab/LinkedListLab.cpp" line="16" column="9" bodyfile="C:/Users/Admin/source/repos/SAOD/LinkedListLab/LinkedListLab.cpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_t_u_d_e_n_t_s___a_c_a_d_e_m_1abfc23367816f171960ef606ce0cb8cf9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int STUDENTS_ACADEM::last</definition>
+        <argsstring></argsstring>
+        <name>last</name>
+        <qualifiedname>STUDENTS_ACADEM::last</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Admin/source/repos/SAOD/LinkedListLab/LinkedListLab.cpp" line="17" column="9" bodyfile="C:/Users/Admin/source/repos/SAOD/LinkedListLab/LinkedListLab.cpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_t_u_d_e_n_t_s___a_c_a_d_e_m_1a320423722d1ab475b324ffdd6114e3f7" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string STUDENTS_ACADEM::name[maxlen]</definition>
+        <argsstring>[maxlen]</argsstring>
+        <name>name</name>
+        <qualifiedname>STUDENTS_ACADEM::name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Admin/source/repos/SAOD/LinkedListLab/LinkedListLab.cpp" line="18" column="12" bodyfile="C:/Users/Admin/source/repos/SAOD/LinkedListLab/LinkedListLab.cpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_t_u_d_e_n_t_s___a_c_a_d_e_m_1a352695baabaf26ab805abd880734a9ea" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double STUDENTS_ACADEM::academ_start[maxlen]</definition>
+        <argsstring>[maxlen]</argsstring>
+        <name>academ_start</name>
+        <qualifiedname>STUDENTS_ACADEM::academ_start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Admin/source/repos/SAOD/LinkedListLab/LinkedListLab.cpp" line="19" column="12" bodyfile="C:/Users/Admin/source/repos/SAOD/LinkedListLab/LinkedListLab.cpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_t_u_d_e_n_t_s___a_c_a_d_e_m_1a10f0ff4ce0d096da6e8cb098054a0680" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double STUDENTS_ACADEM::academ_end[maxlen]</definition>
+        <argsstring>[maxlen]</argsstring>
+        <name>academ_end</name>
+        <qualifiedname>STUDENTS_ACADEM::academ_end</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Admin/source/repos/SAOD/LinkedListLab/LinkedListLab.cpp" line="20" column="12" bodyfile="C:/Users/Admin/source/repos/SAOD/LinkedListLab/LinkedListLab.cpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Admin/source/repos/SAOD/LinkedListLab/LinkedListLab.cpp" line="14" column="1" bodyfile="C:/Users/Admin/source/repos/SAOD/LinkedListLab/LinkedListLab.cpp" bodystart="15" bodyend="21"/>
+    <listofallmembers>
+      <member refid="struct_s_t_u_d_e_n_t_s___a_c_a_d_e_m_1a10f0ff4ce0d096da6e8cb098054a0680" prot="public" virt="non-virtual"><scope>STUDENTS_ACADEM</scope><name>academ_end</name></member>
+      <member refid="struct_s_t_u_d_e_n_t_s___a_c_a_d_e_m_1a352695baabaf26ab805abd880734a9ea" prot="public" virt="non-virtual"><scope>STUDENTS_ACADEM</scope><name>academ_start</name></member>
+      <member refid="struct_s_t_u_d_e_n_t_s___a_c_a_d_e_m_1a51e80eb7703d6b98fe48a6b191eadecd" prot="public" virt="non-virtual"><scope>STUDENTS_ACADEM</scope><name>elem</name></member>
+      <member refid="struct_s_t_u_d_e_n_t_s___a_c_a_d_e_m_1abfc23367816f171960ef606ce0cb8cf9" prot="public" virt="non-virtual"><scope>STUDENTS_ACADEM</scope><name>last</name></member>
+      <member refid="struct_s_t_u_d_e_n_t_s___a_c_a_d_e_m_1a320423722d1ab475b324ffdd6114e3f7" prot="public" virt="non-virtual"><scope>STUDENTS_ACADEM</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

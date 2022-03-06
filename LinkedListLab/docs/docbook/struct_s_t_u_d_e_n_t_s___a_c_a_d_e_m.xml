@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_s_t_u_d_e_n_t_s___a_c_a_d_e_m" xml:lang="en-US">
+<title>STUDENTS_ACADEM Struct Reference</title>
+<indexterm><primary>STUDENTS_ACADEM</primary></indexterm>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_struct_s_t_u_d_e_n_t_s___a_c_a_d_e_m_1a51e80eb7703d6b98fe48a6b191eadecd"/>int <emphasis role="strong">elem</emphasis> [maxlen]</para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_s_t_u_d_e_n_t_s___a_c_a_d_e_m_1abfc23367816f171960ef606ce0cb8cf9"/>int <emphasis role="strong">last</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_s_t_u_d_e_n_t_s___a_c_a_d_e_m_1a320423722d1ab475b324ffdd6114e3f7"/>string <emphasis role="strong">name</emphasis> [maxlen]</para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_s_t_u_d_e_n_t_s___a_c_a_d_e_m_1a352695baabaf26ab805abd880734a9ea"/>double <emphasis role="strong">academ_start</emphasis> [maxlen]</para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_s_t_u_d_e_n_t_s___a_c_a_d_e_m_1a10f0ff4ce0d096da6e8cb098054a0680"/>double <emphasis role="strong">academ_end</emphasis> [maxlen]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+C:/Users/Admin/source/repos/SAOD/LinkedListLab/LinkedListLab.cpp</section>
