@@ -2,18 +2,18 @@ name: Import Doxygen Docs
 on: [push]
 jobs:
   Explore-GitHub-Actions:
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v2
-            - name: Make Docs
-            uses: mattnotmitt/doxygen-action@v1.9.2
-            - name: Push to another repository
-            uses: cpina/github-action-push-to-another-repository@main
-            env:
-                API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-            with:
-                source-directory: 'LinkedListLab/docs'
-                destination-github-username: 'mikhailgladkikh'
-                destination-repository-name: 'labs.io'
-                user-email: 2020100369@pnu.edu.ru
-                target-branch: master
+    runs-on: ubuntu-latest
+    steps:
+       - uses: actions/checkout@v2
+       - name: Make Docs
+         uses: mattnotmitt/doxygen-action@v1.9.2
+       - name: Push to another repository
+         uses: cpina/github-action-push-to-another-repository@main
+         env:
+           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+         with:
+           source-directory: 'LinkedListLab/docs'
+           destination-github-username: 'mikhailgladkikh'
+           destination-repository-name: 'labs.io'
+           user-email: 2020100369@pnu.edu.ru
+           target-branch: master
