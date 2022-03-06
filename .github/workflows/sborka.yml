@@ -1,0 +1,17 @@
+name: Windows Build Visual Studio
+on: [push]
+jobs:
+    Test-For-File:
+        runs-on: windows-latest
+        steps:
+            - name: upload
+              uses: actions/checkout@v2
+            - name: setup-msbuild
+              uses: microsoft/setup-msbuild@v1.1
+            - name: Compile Release
+              run: msbuild /property:Configuration=Release
+            - name: upload result
+              uses: actions/upload-artifact@v2
+              with:
+               path: Release
+               name: Windows Release Build
